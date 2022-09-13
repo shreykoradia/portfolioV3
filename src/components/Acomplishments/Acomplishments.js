@@ -7,6 +7,7 @@ const data = [
   { number: 1, text: 'Open Source Projects and counting it more'},
   { number: 2, text: 'Postion at Masters-app Hackathon at national level by GIT', },
   { number: 4, text: 'Position at GDSC Hackathon At Amity University', },
+  { number: '' , text:'Finalist at Smart India Hackathon\'22 '}
 ];
 
 const Acomplishments = () => (
