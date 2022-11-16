@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'UniChat',
     description: "UniChat Allows to chat with user in one room(Web Socket), The application is built using React.js, Express.js and Web Sockets ",
-      image: '/images/1.png',
+      image: '',
       tags: ['React.js','Express.js','socket.io','Heroku'],
     source: 'https://github.com/shreykoradia/UniChat',
     visit: 'https://unichat-v1.herokuapp.com/',
