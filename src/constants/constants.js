@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'UniChat',
+    description: "UniChat Allows to chat with user in one room(Web Socket), The application is built using React.js, Express.js and Web Sockets ",
+      image: '/images/1.png',
+      tags: ['React.js','Express.js','socket.io','Heroku'],
+    source: 'https://github.com/shreykoradia/UniChat',
+    visit: 'https://unichat-v1.herokuapp.com/',
+    id: 0,
+  },
+  {
     title: 'Covid Tracker',
-    description: "Using React, The App is called CovidTracker and it is a simple Covid-Tracker that allows users to keep Track on Covid cases !.",
+    description: "Using React, The App was developed as Design Engineering Project, CovidTracker and it is a simple Covid-Tracker that allows users to keep Track on Covid cases !.",
       image: '/images/1.png',
       tags: ['React' , 'Disease.sh API'],
     source: 'https://github.com/shreykoradia/covidtracker',
     visit: 'https://covidtrackerbyshrey.herokuapp.com/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'News AI',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['React', 'JavaScript'],
     source: 'https://github.com/shreykoradia/NewsAI',
     visit: 'https://newsai-theta.vercel.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'UnmaskDotPy --CodeStack',
@@ -24,7 +33,7 @@ export const projects = [
       tags: ['React', 'materialUi core'],
     source: 'https://github.com/shreykoradia/unmaskdotpy',
     visit: '#',
-    id: 2,
+    id: 3,
   },
   {
     title: 'EmailSender',
@@ -33,7 +42,7 @@ export const projects = [
     tags: ['Express', 'Nodejs'],
     source: 'https://github.com/shreykoradia/Email-Sender',
     visit: '#',
-    id: 3,
+    id: 4,
   },
 ];
 
@@ -41,6 +50,6 @@ export const TimeLineData = [
   { year: 2019, text: 'Started my journey', },
   { year: 2020, text: 'Started Working on Front-End ', },
   { year: 2021, text: 'Started working on Back-End and Started participating in Hackathons', },
-  { year: 2022, text: 'Currently Developing Hackathon Fleet and AR-Trials ', },
+  { year: 2022, text: 'Currently Developing Ping-Pong Multiplayer and Hackathon Fleets ', },
 
 ];

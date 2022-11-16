@@ -41,9 +41,6 @@ const Header = () =>  (
           <SocialIcons href="https://twitter.com/shreykoradia">
             <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.reddit.com/user/deliPSIerwin">
-            <AiFillRedditCircle size="3rem" />
-          </SocialIcons>
       </Div3>
     </Container>
 );

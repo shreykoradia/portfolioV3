@@ -45,6 +45,16 @@ const Technologies = () =>  (
             & currently learning Rust :)
           </ListParagraph>
         </ListContainer>
+        <ListContainer>
+          <ListTitle>Miscellaneous</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Heroku,
+            Vercel,
+            Firebase,
+            Github
+          </ListParagraph>
+        </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
@@ -53,7 +63,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Experience with <br />
+            Little Experience with <br />
             tools like Figma
           </ListParagraph>
         </ListContainer>
