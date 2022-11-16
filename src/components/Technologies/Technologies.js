@@ -46,7 +46,7 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
         <ListContainer>
-          <ListTitle>Miscellaneous</ListTitle>
+          <ListTitle>Extra's</ListTitle>
           <ListParagraph>
             Experience with <br />
             Heroku,
@@ -60,13 +60,6 @@ const Technologies = () =>  (
         <picture>
           <DiZend size="3rem" />
         </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Little Experience with <br />
-            tools like Figma
-          </ListParagraph>
-        </ListContainer>
       </ListItem>
     </List>
     <SectionDivider colorAlt />
