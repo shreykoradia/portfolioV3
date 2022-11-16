@@ -45,21 +45,22 @@ const Technologies = () =>  (
             & currently learning Rust :)
           </ListParagraph>
         </ListContainer>
-        <ListContainer>
-          <ListTitle>Extra's</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Heroku,
-            Vercel,
-            Firebase,
-            Github
-          </ListParagraph>
-        </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
           <DiZend size="3rem" />
         </picture>
+        <ListContainer>  
+          <ListTitle>Extra's</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Heroku,
+            Vercel,
+            Github,
+            Firebase,
+            Docker
+          </ListParagraph>
+          </ListContainer>
       </ListItem>
     </List>
     <SectionDivider colorAlt />
