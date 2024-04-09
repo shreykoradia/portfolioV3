@@ -1,8 +1,23 @@
-import React from 'react';
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle,AiFillRedditCircle  } from 'react-icons/ai';
+import React from "react";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
+import { FaDev } from "react-icons/fa";
 
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { SocialIcons } from "../Header/HeaderStyles";
+import {
+  CompanyContainer,
+  FooterWrapper,
+  LinkColumn,
+  LinkItem,
+  LinkList,
+  LinkTitle,
+  Slogan,
+  SocialContainer,
+  SocialIconsContainer,
+} from "./FooterStyles";
 
 const Footer = () => {
   return (
@@ -33,8 +48,8 @@ const Footer = () => {
           <SocialIcons href="https://twitter.com/shreykoradia">
             <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.reddit.com/user/deliPSIerwin">
-            <AiFillRedditCircle size="3rem" />
+          <SocialIcons href="https://dev.to/delisrey">
+            <FaDev size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
