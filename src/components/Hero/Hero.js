@@ -19,9 +19,8 @@ const Hero = (props) => (
         <SectionText>
           Sometimes I write code , mostly it is shitty at first glance but it
           does wonder though when it renders; mostly it looks good after
-          iterations.
-          <br />I know I know, your are keen to know What do I do mainly, most
-          of my time goes in developing products in React codebase from scratch(
+          iterations. I know I know, your are keen to know What do I do mainly, most
+          of my time goes in developing products in React codebase from scratch (
           :/ I hope it was true, but I also debug applications a lot when I
           write test-cases and storybook)
           <br />I am SDE-1 Frontend @radicalloop, Where I practically work in
