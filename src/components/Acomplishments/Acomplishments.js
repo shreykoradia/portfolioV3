@@ -1,13 +1,28 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-  { number: 1, text: 'Open Source Projects and counting it more'},
-  { number: 2, text: 'Postion at Masters-app Hackathon at national level by GIT', },
-  { number: 4, text: 'Position at GDSC Hackathon At Amity University', },
-  { number: '' , text:'Finalist at Smart India Hackathon\'22 '}
+  {
+    number: 3,
+    text: "Open Source Projects Contributed from Scratch ",
+  },
+  {
+    number: 2,
+    text: "Postion at Masters-app Hackathon at national level by GIT",
+  },
+  { number: 4, text: "Position at GDSC Hackathon At Amity University" },
+  { number: 1, text: "Finalist at Smart India Hackathon'22 " },
+  { number: "12K+", text: "Readers on Blog, Monthly 3K+ Readers on Dev.to " },
+  {
+    number: "300+⬇️",
+    text: "React Menu Portal, a package wrapper for React-Select",
+  },
 ];
 
 const Acomplishments = () => (
@@ -21,7 +36,7 @@ const Acomplishments = () => (
         </Box>
       ))}
     </Boxes>
-    <SectionDivider/>
+    <SectionDivider />
   </Section>
 );
 
