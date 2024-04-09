@@ -21,7 +21,7 @@ const data = [
   { number: "12K+", text: "Readers on Blog, Monthly 3K+ Readers on Dev.to " },
   {
     number: "300+⬇️",
-    text: "React Menu Portal, a package wrapper for React-Select",
+    text: "React Menu Portal, a package for portal wrapper for React-Select, Async paginated Custom MenuList",
   },
 ];
 
